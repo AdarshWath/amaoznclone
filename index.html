@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="border">
+                <a href="https://www.amazon.com/ref=nav_logo"><div class="logo"></div></a>
+            </div>
+
+            <div class="border">
+            <a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Dnav_logo%3Fie%3DUTF8%26useRedirectOnSuccess%3D1%26ref_%3Ddex_glow_signin%26path%3D%2Fref%3Dnav_logo&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+            <div class="nav-address">
+                <p id="deliver">Deliver to</p>
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <pre id="country"> India</pre>
+                </div>
+            </div>
+            </a>
+            </div>
+
+            <div class="search">
+                <select name="All" id="dropdown">
+                    <option value="ww">All</option>
+                    <option value="ww">All Departments</option>
+                    <option value="ww">Arts & Crafts</option>
+                    <option value="ww">Automotive</option>
+                    <option value="ww">Baby</option>
+                    <option value="ww">Beauty & Persoal Care</option>
+                    <option value="ww">Books</option>
+                    <option value="ww">Boy's Fashion</option>
+                    <option value="ww">Computers</option>
+                    <option value="ww">Deals</option>
+                    <option value="ww">Digital Music</option>
+                    <option value="ww">Electronics</option>
+                    <option value="ww">Girl's Fashion</option>
+                    <option value="ww">Health & household</option>
+                    <option value="ww">Home &Kitchens</option>
+                    <option value="ww">Industial & scientific</option>
+                    <option value="ww">Kindle Store</option>
+                    <option value="ww">Luggage</option>
+                    <option value="ww">Men's Fashion</option>
+                    <option value="ww">Movies & TV</option>
+                    <option value="ww">Music, CDs & Vinyl</option>
+                    <option value="ww">Pet Supplies</option>
+                    <option value="ww">Prime Video</option>
+                    <option value="ww">Software</option>
+                    <option value="ww">Sports & Outdoors</option>
+                    <option value="ww">Tools & Home Improvement</option>
+                    <option value="ww">Toys & Games</option>
+                    <option value="ww">Video Games</option>
+                    <option value="ww">Womens Fashion</option>
+                </select>
+                <input type="search" placeholder="   Search Amazon" id="searchbox">
+                <div id="magnifying-glass">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass" id="img"></i></a>
+                </div>
+            </div>
+
+            <div class="country border">
+                <div class="flag"></div>
+                <select name="country" id="ddcountry">
+                    <option value="England">EN</option>
+                </select>
+            </div>
+            
+            <a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+            <div class="signin border">
+                <div class="greet">Hello, sign in</div>
+                <div class="acc">Account & Lists</div>
+            </div>
+            </a>
+
+            <a href="https://www.amazon.com/ap/signin?_encoding=UTF8&accountStatusPolicy=P1&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dnav_orders_first&pageId=webcs-yourorder&showRmrMe=1">
+            <div class="replacement border">
+                <div class="Returns">Returns</div>
+                <div class="Orders">& Orders</div>
+            </div>
+            </a>
+
+            <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart">
+            <div class="cart border">
+                <div id="icon">
+                </div>
+                <div id="cart">Cart</div>
+            </div>
+            </a>
+        </div>
+        <div class="navbar2">
+            <div class="bar border">
+                <i class="fa-solid fa-bars"></i>  All
+            </div>
+            <div class="deal border">Today's Deal</div>
+            <div class="registry border">Registry</div>
+            <div class="service border">Customer Service</div>
+            <div class="cards border">Gift Cards</div>
+            <div class="sell border">Sell</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="background"></div>
+            <div class="layout">
+                <div class="suggestion">
+                    <p id="sugg">You  are  on  amazon.com.  You  can  also  shop  on  Amazon  India  for  millions  of  product  with  fast  local  delivery.<a id="in" href="https://www.amazon.in/?ref=aisgw_intl_stripe_in">Click here to go to amazon.in</a></p>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="row1">
+                    <div class="pkd">
+                        <div class="txt">PCs</div>
+                        <div id="box11" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Toys Under 25$</div>
+                        <div id="box12" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Top Deal</div>
+                        <div id="box13" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Shop deals in Fashion</div>
+                        <div id="box14" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                </div>
+
+
+                <div class="row2">
+                    <div class="pkd">
+                        <div class="txt">New Lunar Deal</div>
+                        <div id="box21" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Laptop Under $400</div>
+                        <div id="box22" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Books</div>
+                        <div id="box23" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Cookware Sale</div>
+                        <div id="box24" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                </div>
+                
+                <div class="row3">
+                    <div class="pkd">
+                        <div class="txt">Speaker</div>
+                        <div id="box31" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Amazon Deals</div>
+                        <div id="box32" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Bottles & containers</div>
+                        <div id="box33" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                    <div class="pkd">
+                        <div class="txt">Keyboard & mouse combos</div>
+                        <div id="box34" class="img"></div>
+                        <a href="#" class="link">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer1"><a href="#"> Back to Top</a></div>
+            <div class="footer2">
+                <div class="fu">
+                    <div class="b1">
+                        <ol>
+                            <li class="maintxt">Get to Know us</li>
+                            <li><a href="#"> Carrers</a></li>
+                            <li><a href="#"> Bolg</a></li>
+                            <li><a href="#"> About Amazon</a></li>
+                            <li><a href="#"> Investors Relations</a></li>
+                            <li><a href="#"> Amazon India</a></li>
+                            <li><a href="#"> Amazon Sciences</a></li>
+                        </ol>
+                    </div>
+                    <div class="b2">
+                        <ol>
+                            <li class="maintxt">Make Money with Us</li>
+                            <li><a href="#"> Sell products on amazon</a></li>
+                            <li><a href="#"> Sell on Amazon Buisness</a></li>
+                            <li><a href="#"> Become a Affiliate</a></li>
+                            <li><a href="#"> Advertise Your Products</a></li>
+                            <li><a href="#"> Self Publish with Us</a></li>
+                            <li><a href="#"> Host an Amazon Hub</a></li>
+                            <li><a href="#"> See more</a></li>
+                        </ol>
+                    </div>
+                    <div class="b3">
+                        <ol>
+                            <li class="maintxt">Amazon Payments</li>
+                            <li><a href="#"> Amazon Buisness</a></li>
+                            <li><a href="#"> Shop with Points</a></li>
+                            <li><a href="#"> Reload your Buisness</a></li>
+                            <li><a href="#"> Amazon Currency converter</a></li>
+                        </ol>
+                    </div>
+                    <div class="b4">
+                        <ol>
+                            <li class="maintxt">Let Us Help You</li>
+                            <li><a href="#"> Amazon and Covid-19</a></li>
+                            <li><a href="#"> Your Account</a></li>
+                            <li><a href="#"> Your Orders</a></li>
+                            <li><a href="#"> Shipping Rates and Policies</a></li>
+                            <li><a href="#"> Return and Replacement</a></li>
+                            <li><a href="#"> Manage Your Content</a></li>
+                            <li><a href="#"> Amazon Assistant</a></li>
+                            <li><a href="#"> Help</a></li>
+                        </ol>
+                    </div>
+                </div><hr>
+                <div class="fl">
+                    <div class="logo" id="two"></div>
+                    <div class="language">
+                            English
+                    </div>
+                    <div class="language">
+                        $ USD - US Dollar
+                    </div>
+                    <div class="language">
+                        United States
+                    </div>
+                </div>
+            </div>
+            <div class="footer3">
+                <div class="optional">
+                    <div class="r1">
+                        <div class="b2">
+                            <ol>
+                                <li class="maintxt" id="litwo">Amazon Music</li>
+                                <li id="litwo">Stream millions of songs</li>
+                            </ol>
+                        </div>
+                        <div class="b2">
+                            <ol>
+                                <li class="maintxt" id="litwo">Amazon Ads</li>
+                                <li id="litwo">Reach Customers whereever they Spend their time</li>
+                            </ol>
+                        </div>
+                        <div class="b2">
+                            <ol>
+                                <li class="maintxt" id="litwo">6pm</li>
+                                <li id="litwo">Score deals on fashion brands</li>
+                            </ol>
+                        </div>
+                        <div class="b2">
+                            <ol>
+                                <li class="maintxt" id="litwo">Abe books</li>
+                                <li id="litwo">Books, arts & Collectibles</li>
+                            </ol>
+                        </div>
+                        <div class="b2">
+                            <ol>
+                                <li class="maintxt" id="litwo">ACX</li>
+                                <li id="litwo">Audiobook publishing made easy</li>
+                            </ol>
+                        </div>
+                        <div class="b2">
+                            <ol>
+                                <li class="maintxt" id="litwo">Sell on Amazon</li>
+                                <li id="litwo">Start a Selling Account</li>
+                            </ol>
+                        </div>
+                        <div class="b2">
+                            <ol>
+                                <li class="maintxt" id="litwo">Amazon Buisness</li>
+                                <li id="litwo">Everything for your buisness</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright1">
+                    <pre><a href="#" id="litwo">Conditions of Use</a>      <a href="#" id="litwo">Privacy notice</a>      <a href="#" id="litwo">Ads by choice<br/></a></pre>
+                </div>
+                <div class="copyright2">
+                    <p class="copy">&copy; 1996-2004, Amazon.com, inc. or its affiliates</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
